@@ -1,0 +1,13 @@
+mport math, random,time
+import threading
+import tkinter as tk
+import re
+#import uuid
+
+Fireworks=[]
+maxFireworks=8
+height,width=600,600
+
+class firework(object):
+def init(self,color,speed,width,height):
+#uid=uuid.uuid1()
