@@ -1,0 +1,3 @@
+ Execute 
+JAVA_OPTS="-cp ${EXEC_LCP} ${CDS_OPTS}" 
+JAVA_OPTS="${JAVA_OPTS} CDSBillingSubscriber" 
